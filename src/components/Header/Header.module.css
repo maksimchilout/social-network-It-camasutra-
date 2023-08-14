@@ -1,0 +1,17 @@
+.header {
+    background-color: rgb(44, 48, 52);
+    grid-area: header;
+}
+.header img {
+  animation: rotate 13s ease  infinite;
+  width: 50px;
+}
+
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

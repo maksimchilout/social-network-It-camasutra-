@@ -1,0 +1,12 @@
+
+.content {
+    background-color: #38363a;
+    grid-area: content;
+    
+  }
+
+.image {
+  max-height: 300px;
+  width: 100%;
+  object-fit: cover;
+}

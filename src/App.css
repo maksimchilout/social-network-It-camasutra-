@@ -1,6 +1,8 @@
 
 .app-wrapper {
-  width: 1200px;
+  margin: 0 20px 0 20px;
+  padding: 0 20px 0 20px;
+  max-width: 1200px;
   display: grid;
   margin: 0 auto;
   grid-template-rows: 60px 1fr;
@@ -12,31 +14,6 @@
 
 }
 
-.header {
-  background-color: rgb(44, 48, 52);
-  grid-area: header;
-  .logo-roto {
-    width: 50px;
-    animation: rotate 13s ease  infinite;
-  }
-}
 
-.nav {
-  background-color: bisque;
-  grid-area: nav;
-}
 
-.content {
-  background-color: #6728d4;
-  grid-area: content;
-  
-}
 
-@keyframes rotate {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
