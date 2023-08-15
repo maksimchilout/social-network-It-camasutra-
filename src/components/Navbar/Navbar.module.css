@@ -5,8 +5,12 @@
 }
 
 .item a{
+    transition: all .15s ease;
     color: inherit;
     text-decoration: none;
+    &:hover {
+        color: gray;
+    }
 
 }
  
@@ -16,4 +20,5 @@
 }
 .item a.activeLink {
     color: blueviolet;
+    transition: all .3s ease;
 }
