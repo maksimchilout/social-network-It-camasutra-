@@ -10,6 +10,7 @@ const MyPosts = (props) => {
         {id: 3, post: 'hi, how are you', likesCount: 14},
         {id: 4, post: 'This is last message today', likesCount: 9},
     ]
+    let postsElements = postsData.map(el => <Post message={el.post} likesCount={el.likesCount}/>)
 
     return (
         <div className={s.postsBlock}>
@@ -23,9 +24,7 @@ const MyPosts = (props) => {
                 </div>
             </div>
             <div className={s.posts}>
-                <Post message={postsData[0].post} likesCount={postsData[0].likesCount}/>
-                <Post message={postsData[1].post} likesCount={postsData[1].likesCount}/>
-
+                {postsElements}
             </div>
         </div>
     )

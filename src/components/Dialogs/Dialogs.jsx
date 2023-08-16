@@ -2,7 +2,6 @@ import React from "react";
 import s from "./Dialog.module.css"
 import {NavLink} from "react-router-dom";
 
-
 const DialogItem = (props) => {
     return (
         <div className={`${s.dialog} ${s.active}`}>
@@ -11,13 +10,11 @@ const DialogItem = (props) => {
     )
 }
 
-
 const Message = (props) => {
     return (
         <div className={s.message}>{props.message}</div>
     )
 }
-
 
 const Dialogs = (props) => {
 
@@ -30,6 +27,8 @@ const Dialogs = (props) => {
         {id: 6, name: "Andrey"},
     ]
 
+    let dialogsElements = dialogsData.map(a => <DialogItem name={a.name} id={a.id}/>)
+
     let messagesData = [
         {id: 1, message: "Hi"},
         {id: 2, message: "HOw is your it-camasutra?"},
@@ -38,27 +37,15 @@ const Dialogs = (props) => {
         {id: 5, message: "No"},
     ]
 
+    let messageElements = messagesData.map(a => <Message message={a.message}/>)
+
     return (
         <div className={s.dialogs}>
             <div className={s.dialogsItems}>
-
-                <DialogItem name="Dimych" id="1"/>
-
-                <DialogItem name="Kristina" id="2"/>
-
-                <DialogItem name="Gosha" id="3"/>
-
-                <DialogItem name="Violeta" id="4"/>
-
-                <DialogItem name="Elena" id="5"/>
-
-                <DialogItem name="Janet" id="6"/>
+                {dialogsElements}
             </div>
             <div className={s.messages}>
-                <Message message="Hello"/>
-                <Message message="How is your it-camautra?"/>
-                <Message message="This is thery good!"/>
-
+                {messageElements}
             </div>
         </div>
     )
