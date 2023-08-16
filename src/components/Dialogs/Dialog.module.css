@@ -12,7 +12,15 @@
 }
 
 .dialog {
-
+    margin-bottom: 5px;
+}
+.dialog a {
+    color: #fff;
+    text-decoration: none;
+    &:hover{
+        transition: all .15s ease;
+        color: gray;
+    }
 }
 
 .messages {
@@ -20,6 +28,6 @@
 }
 
 .message {
-
+    color: #ffffff;
 }
 
