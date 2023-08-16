@@ -18,5 +18,9 @@
   overflow: hidden;
 margin: 0 10px;
 }
-
+.likes {
+  color: #ffffff;
+  font-weight: 600;
+  padding: 2px 0 5px 10px;
+}
 
