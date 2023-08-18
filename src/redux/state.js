@@ -13,8 +13,8 @@ let state = {
             {id: 1, name: "Dimych", imgSrc: "./image/racon.jpg"},
             {id: 2, name: "Kristina", imgSrc: "./image/girl.jpg"},
             {id: 3, name: "Janet", imgSrc: "./image/mask.jpg"},
-            {id: 5, name: "Svetlana", imgSrc: "./image/fox.png"},
-            {id: 6, name: "Andrey", imgSrc: "./image/minion.jpg"},
+            {id: 4, name: "Svetlana", imgSrc: "./image/fox.png"},
+            {id: 5, name: "Andrey", imgSrc: "./image/minion.jpg"},
         ],
         messagesData: [
             {id: 1, message: "Hi"},
