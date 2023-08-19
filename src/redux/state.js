@@ -8,7 +8,8 @@ let state = {
             {id: 2, post: 'Why anyone love me', likesCount: 9},
             {id: 3, post: 'hi, how are you', likesCount: 14},
             {id: 4, post: 'This is last message today', likesCount: 9},
-        ]
+        ],
+        newPostText: 'it-Kamasutra.com'
     },
     dialogsPage: {
         dialogsData: [
@@ -30,14 +31,20 @@ let state = {
 
 }
 
-export let addPost = (postMessage) => {
+export let addPost = () => {
     let newPost = {
         id: 5,
-        post: postMessage,
+        post: state.profilePage.newPostText,
         likesCount: 0
     }
     state.profilePage.postsData.push(newPost)
+    state.profilePage.newPostText = ''
+    rerenderEntireTree(state)
+}
 
+
+export  let updateNewPostText = (newText) => {
+    state.profilePage.newPostText = newText
     rerenderEntireTree(state)
 }
 
