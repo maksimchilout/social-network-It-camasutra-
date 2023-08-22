@@ -10,7 +10,8 @@ let store = {
             }, {id: 3, post: 'hi, how are you', likesCount: 14}, {
                 id: 4, post: 'This is last message today', likesCount: 9
             },], newPostText: 'it-Kamasutra.com'
-        }, dialogsPage: {
+        },
+        dialogsPage: {
             dialogsData: [{id: 1, name: "Dimych", imgSrc: "./image/racon.jpg"}, {
                 id: 2, name: "Kristina", imgSrc: "./image/girl.jpg"
             }, {id: 3, name: "Janet", imgSrc: "./image/mask.jpg"}, {

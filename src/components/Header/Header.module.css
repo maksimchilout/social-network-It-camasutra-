@@ -1,17 +1,26 @@
 .header {
     background-color: rgb(44, 48, 52);
     grid-area: header;
-}
-.header img {
-  animation: rotate 13s ease  infinite;
-  width: 50px;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
 }
 
-  @keyframes rotate {
+.header img {
+
+    animation: rotate 20s ease infinite;
+    width: 50px;
+    height: 50px;
+}
+
+@keyframes rotate {
     from {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
     to {
-      transform: rotate(360deg);
+        transform: rotate(360deg);
     }
-  }
+}

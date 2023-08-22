@@ -5,7 +5,7 @@
     max-width: 1200px;
     display: grid;
     margin: 0 auto;
-    grid-template-rows: 60px 1fr;
+    grid-template-rows: 80px 1fr;
     grid-template-columns: 2fr 10fr;
     grid-gap: 10px;
     grid-template-areas:
@@ -17,6 +17,8 @@
 .app-wrapper-content {
     background-color: #38363a;
     grid-area: content;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 
