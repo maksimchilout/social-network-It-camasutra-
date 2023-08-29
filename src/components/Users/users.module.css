@@ -2,3 +2,29 @@
     width: 80px;
     height: 80px;
 }
+
+.numberOfPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0 15px 0;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    height: 40px;
+    & span {
+        transition: all .15s ease;
+        padding: 3px;
+
+        &:hover {
+            color: aqua;
+
+            font-size: 29px;
+        }
+    }
+}
+
+.selectedPage {
+    font-weight: bold;
+    font-size: 25px;
+}
