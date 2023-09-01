@@ -5,10 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="391d775e-cba0-4c24-8513-4a9907a63693" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/anonum.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/fox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/girl.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/image-main.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/mask.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/minion.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/racon.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/commons/preloader/Preloader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/commons/preloader/Preloader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/users.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/users.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profile-reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +62,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "59cf821b",
-    "last_opened_file_path": "D:/pro/it-camasutra/one/my-app/src/components/Users",
+    "git-widget-placeholder": "f63133a7",
+    "last_opened_file_path": "D:/pro/it-camasutra/one/my-app/src/components/Profile/ProfileInfo",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -61,11 +77,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\pro\it-camasutra\one\my-app\src\components\Profile\ProfileInfo" />
+      <recent name="D:\pro\it-camasutra\one\my-app\src\images" />
       <recent name="D:\pro\it-camasutra\one\my-app\src\components\Users" />
       <recent name="D:\pro\it-camasutra\one\my-app\src\components\Dialogs" />
       <recent name="D:\pro\it-camasutra\one\my-app\src\components\Profile\MyPosts" />
-      <recent name="D:\pro\it-camasutra\one\my-app\src\redux" />
-      <recent name="D:\pro\it-camasutra\one\my-app\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\pro\it-camasutra\one\my-app\src\images" />
@@ -106,7 +122,8 @@
       <workItem from="1692623842130" duration="1146000" />
       <workItem from="1692635367231" duration="26708000" />
       <workItem from="1692881817793" duration="1009000" />
-      <workItem from="1692883191897" duration="65332000" />
+      <workItem from="1692883191897" duration="67813000" />
+      <workItem from="1693546363634" duration="6654000" />
     </task>
     <servers />
   </component>

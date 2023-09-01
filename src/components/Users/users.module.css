@@ -3,6 +3,13 @@
     height: 80px;
 }
 
+.avaContainer {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
 .numberOfPage{
     display: flex;
     justify-content: center;
@@ -25,6 +32,7 @@
 }
 
 .selectedPage {
+    letter-spacing: -1px;
     font-weight: bold;
     font-size: 28px;
     color: aqua;

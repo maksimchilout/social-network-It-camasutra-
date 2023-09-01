@@ -1,15 +1,23 @@
 import React from "react";
 import s from './ProfileInfo.module.css'
+import mainImg from "./../../../images/image-main.jpg";
+import Preloader from "../../commons/preloader/Preloader";
 
+const ProfileInfo = (props) => {
 
-const ProfileInfo = () => {
+    if (!props.profile) {
+
+        return <Preloader isFetching={true}/>
+    }
+
     return (
         <div>
             <div>
-                <img className={s.image} src='./image/image-main.jpg' alt='main-im'/>
+                <img className={s.image} src={mainImg} alt='main-im'/>
             </div>
             <div className={s.descriptionBlock}>
-                Ava + description
+                <img src={props.profile.photos.large} alt="user"/>
+
             </div>
 
         </div>
