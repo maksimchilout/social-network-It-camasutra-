@@ -4,7 +4,7 @@
     border-radius: 10px;
     margin-top: 10px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     padding: 10px;
 }
@@ -22,5 +22,14 @@
     }
     to {
         transform: rotate(360deg);
+    }
+}
+
+
+.loginBlock {
+color: #fff;
+    & a {
+        text-decoration: none;
+        color: #fff;
     }
 }
