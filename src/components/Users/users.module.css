@@ -37,3 +37,12 @@
     font-size: 28px;
     color: aqua;
 }
+
+.buttonFollow {
+    background: green;
+    transition: .5s ease;
+}
+.buttonUnfollow{
+    background: red;
+    transition: .5s ease;
+}
