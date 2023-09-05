@@ -1,7 +1,8 @@
 import React from "react";
 import s from './ProfileInfo.module.css'
-import mainImg from "./../../../images/image-main.jpg";
+// import mainImg from "./../../../images/image-main.jpg";
 import Preloader from "../../commons/preloader/Preloader";
+import ProfileStatus from"./ProfileStatus"
 
 const ProfileInfo = (props) => {
 
@@ -12,12 +13,12 @@ const ProfileInfo = (props) => {
 
     return (
         <div>
-            <div>
-                <img className={s.image} src={mainImg} alt='main-im'/>
-            </div>
+            {/*<div>*/}
+            {/*    <img className={s.image} src={mainImg} alt='main-im'/>*/}
+            {/*</div>*/}
             <div className={s.descriptionBlock}>
                 <img src={props.profile.photos.large} alt="user"/>
-
+                <ProfileStatus status={"Heyyyyia!!!"}/>
             </div>
 
         </div>
