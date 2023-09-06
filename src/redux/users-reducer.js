@@ -47,6 +47,7 @@ const usersReducer = (state = initialState, action) => {
             return {...state, users: [...action.users]} //...state.users,
         }
         case SET_CURRENT_PAGE: {
+            console.log(action.currentPage)
             return {...state, currentPage: action.currentPage}
         }
         case SET_TOTAL_USERS_COUNT: {
