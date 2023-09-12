@@ -6,7 +6,6 @@ import {useParams} from "react-router-dom";
 import {withAuthRedirect} from "../../hoc/withAuthRedirect";
 import {compose} from "redux";
 
-
 const withRouter = WrappedComponent => props => {
     const params = useParams();
     // etc... other react-router-dom v6 hooks
@@ -25,7 +24,7 @@ class ProfileContainer extends React.Component {
         let userId = this.props.params.userId
         if (!userId) {
             userId =this.props.authorizedUserId
-        }
+                    }
         this.props.getUserProfile(userId)
         this.props.getStatus(userId)
     }

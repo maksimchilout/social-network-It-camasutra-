@@ -2,7 +2,7 @@ import preloader from "../../../images/Spinner-1s-200px.svg";
 import React from "react";
 
 
-let Preloader = (props) => {
+let PreloaderI = (props) => {
     return(
         <div>
             {props.isFetching ? <img src={preloader} alt='preloader'/> : <img src={preloader} alt='preloader'/>}
@@ -10,4 +10,4 @@ let Preloader = (props) => {
     )
 }
 
-export default Preloader
+export default PreloaderI

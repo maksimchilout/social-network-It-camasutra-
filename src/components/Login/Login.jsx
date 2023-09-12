@@ -52,12 +52,9 @@ const LoginReduxForm = reduxForm({
 const Login = (props) => {
 
     const onSubmit = (formData) => {
-        console.log(props.login)
         props.login(formData.email, formData.password, formData.rememberMe)
     }
-    console.log(props.isAuth)
     if (props.isAuth) {
-        console.log('dsa')
         return <Navigate replace to={"/profile"}/>
     }
     return (
