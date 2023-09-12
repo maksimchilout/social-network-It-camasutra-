@@ -5,6 +5,7 @@ import {maxLengthCreator, required} from "../../utils/validators/validators";
 import {connect} from "react-redux";
 import {login} from "../../redux/auth-reducer";
 import {Navigate} from "react-router-dom";
+import style from "./../commons/FormsControls/FormsControls.module.css"
 
 const maxLength25 = maxLengthCreator(25)
 
@@ -35,6 +36,9 @@ const LoginForm = (props) => {
                     component={Input}
                 /> remember me
             </div>
+            { props.error && <div className={style.formSummaryError}>
+                {props.error}
+            </div>}
             <div>
                 <button>Login</button>
             </div>
@@ -54,12 +58,12 @@ const Login = (props) => {
     console.log(props.isAuth)
     if (props.isAuth) {
         console.log('dsa')
-        return <Navigate replace to={"/profile"} />
+        return <Navigate replace to={"/profile"}/>
     }
     return (
         <div>
             <h1>Login</h1>
-            <LoginReduxForm onSubmit={onSubmit} />
+            <LoginReduxForm onSubmit={onSubmit}/>
         </div>
     )
 }
