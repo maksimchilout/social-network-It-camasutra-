@@ -33,3 +33,14 @@ color: #fff;
         color: #fff;
     }
 }
+
+.logOutButton{
+    background: transparent;
+    color: white;
+    border: none;
+    transition: .2s ease;
+    &:hover {
+        color: aqua;
+    }
+
+}
