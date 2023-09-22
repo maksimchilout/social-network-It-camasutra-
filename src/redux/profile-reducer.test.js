@@ -24,9 +24,6 @@ it('New post should be added', () => {
 
 it('Message of new post should be: it-camasutra.com', () => {
     let action = addPostActionCreator("it-camasutra.com")
-
-
-
     let newState = profileReducer(initialState, action)
 
 

@@ -2,24 +2,19 @@ import React from "react";
 import s from './ProfileInfo.module.css'
 // import mainImg from "./../../../images/image-main.jpg";
 import Preloader from "../../commons/preloader/Preloader";
-import ProfileStatus from"./ProfileStatus"
 import ProfileStatusWithHooks from "./ProfileStatusWithHooks";
 
-const ProfileInfo = (props) => {
+const ProfileInfo = ({profile, status, updateStatus}) => {
 
-    if (!props.profile) {
-
+    if (!profile) {
         return <Preloader isFetching={true}/>
     }
 
     return (
         <div>
-            {/*<div>*/}
-            {/*    <img className={s.image} src={mainImg} alt='main-im'/>*/}
-            {/*</div>*/}
             <div className={s.descriptionBlock}>
-                <img src={props.profile.photos.large} alt="user"/>
-                <ProfileStatusWithHooks status={props.status} updateStatus={props.updateStatus}/>
+                <img src={profile.photos.large} alt="user"/>
+                <ProfileStatusWithHooks status={status} updateStatus={updateStatus}/>
             </div>
 
         </div>
