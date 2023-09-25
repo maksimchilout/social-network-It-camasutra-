@@ -2,11 +2,11 @@ const SEND_MESSAGE = 'SEND-MESSAGE'
 
 let initialState = {
     dialogsData: [
-        {id: 1, name: "Dimych", imgSrc: "./image/racon.jpg"},
-        {id: 2, name: "Kristina", imgSrc: "./image/girl.jpg"},
-        {id: 3, name: "Janet", imgSrc: "./image/mask.jpg"},
-        {id: 4, name: "Svetlana", imgSrc: "./image/fox.png"},
-        {id: 5, name: "Andrey", imgSrc: "./image/minion.jpg"},
+        {id: 1, name: "Dimych", imgSrc: "./images/racon.jpg"},
+        {id: 2, name: "Kristina", imgSrc: "./images/girl.jpg"},
+        {id: 3, name: "Janet", imgSrc: "./images/mask.jpg"},
+        {id: 4, name: "Svetlana", imgSrc: "./images/fox.png"},
+        {id: 5, name: "Andrey", imgSrc: "./images/minion.jpg"},
     ],
     messagesData: [
         {id: 1, message: "Hi"},

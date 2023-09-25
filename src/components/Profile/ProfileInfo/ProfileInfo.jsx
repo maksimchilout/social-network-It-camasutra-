@@ -1,6 +1,6 @@
 import React from "react";
 import s from './ProfileInfo.module.css'
-// import mainImg from "./../../../images/image-main.jpg";
+// import mainImg from "./../../../images/images-main.jpg";
 import Preloader from "../../commons/preloader/Preloader";
 import ProfileStatusWithHooks from "./ProfileStatusWithHooks";
 

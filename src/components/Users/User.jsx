@@ -10,8 +10,9 @@ let  User= ({user, followingInProgress, follow, unfollow}) => {
                 <div>
                     <NavLink to={'/profile/' + user.id}>
                         <div className={styles.avaContainer}>
+
                             <img className={styles.userPhoto}
-                                 src={user.photos.small != null ? user.photos.small : './image/minion.jpg'}
+                                 src={user.photos.small != null ? user.photos.small : './images/minion.jpg'}
                                  alt=""/>
                         </div>
 

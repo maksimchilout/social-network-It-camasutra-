@@ -1,6 +1,6 @@
 import React from "react";
 import s from './Post.module.css'
-import anonumAva from './../../../../images/anonum.jpg'
+import anonumAva from '../../../../images/anonum.jpg'
 
 
 const Post = (props) => {
