@@ -25,3 +25,16 @@
     font-size: 28px;
     color: aqua;
 }
+
+.pag {
+    font-size: 35px;
+    transition: all .15s ease;
+    &:hover {
+        color: aqua;
+
+        font-size: 45px;
+    }
+    color: white;
+    background: none;
+    border: none;
+}
