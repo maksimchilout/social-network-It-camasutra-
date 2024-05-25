@@ -10,8 +10,8 @@ import HeaderContainer from "./components/Header/HeaderContainer";
 import Login from "./components/Login/Login";
 import React, {Component} from "react";
 import {connect} from "react-redux";
-import {initializeApp} from "./redux/app-reducer";
-import PreloaderI from "./components/commons/preloader/PreloaderInfinite";
+import {initializeApp} from "./redux/app-reducer.ts";
+import Preloader from "./components/commons/preloader/Preloader";
 import {withSuspense} from "./hoc/withSuspense";
 
 // import DialogsContainer from "./components/Dialogs/DialogsContainer";
@@ -25,7 +25,7 @@ class App extends Component {
 
     render() {
         if (!this.props.initialized) {
-            return <PreloaderI/>
+            return <Preloader/>
         }
         return (
             <div className='app-wrapper'>
@@ -33,19 +33,18 @@ class App extends Component {
                 <Navbar/>
                 <div className='app-wrapper-content'>
                     <Routes>
+                        <Route exact path='/' element={<ProfileContainer/>}/>
                         <Route path='/profile/:userId?' element={<ProfileContainer/>}/>
                         <Route path='/dialogs/*' element={
                             withSuspense(DialogsContainer)
 
-                            // <React.Suspense fallback={<div>Loading...</div>}>
-                            //     <DialogsContainer/>
-                            // </React.Suspense>
                         }/>
                         <Route path='/news' element={<News/>}/>
                         <Route path='/music' element={<Music/>}/>
                         <Route path='/users' element={<UsersContainer/>}/>
                         <Route path='/settings' element={<Settings/>}/>
                         <Route path='/login' element={<Login/>}/>
+                        <Route path='*' element={<div>404 NOT FOUND</div>}/>
                     </Routes>
                 </div>
             </div>

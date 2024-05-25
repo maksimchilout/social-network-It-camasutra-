@@ -19,7 +19,5 @@ root.render(
 )
 
 
-//
-// reportWebVitals();
 // <React.StrictMode>
 // </React.StrictMode>
